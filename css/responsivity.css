@@ -1,0 +1,23 @@
+@media(min-width: 900px) {
+    h1{
+        font-size: 3.125rem;
+        line-height: 3.4375rem;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        min-height: 100vh;
+        gap: 4rem;
+        justify-content: center;
+        
+    }
+    section:first-child {
+        max-width: 32.8125;
+        text-align: left;
+    }
+
+    section:last-child {
+        max-width: 33.75rem;
+    }
+}
